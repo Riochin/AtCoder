@@ -10,4 +10,4 @@
 | 005 | 1/22 | None | [ABC081B](https://atcoder.jp/contests/abs/tasks/abc081_b) | [Answer](https://github.com/Riochin/AtCoder/tree/main/ABS/ABC081B) |
 | 006 | 1/25 | None | [ABC390A](https://atcoder.jp/contests/abc390/tasks/abc390_a) | [Answer](https://github.com/Riochin/AtCoder/tree/main/ABC/ABC390A) |
 | 007 | 1/25 | None | [ABC390B](https://atcoder.jp/contests/abc390/tasks/abc390_b) | [Answer](https://github.com/Riochin/AtCoder/tree/main/ABC/ABC390B) |
-| 008 | 1/25 | None | [ABC390C](https://atcoder.jp/contests/abc390/tasks/abc390_c) | [Answer](https://github.com/Riochin/AtCoder/tree/main/ABC/ABC390C) |
+| 008 | 1/25 | [#2](https://github.com/Riochin/AtCoder/issues/2) | [ABC390C](https://atcoder.jp/contests/abc390/tasks/abc390_c) | [Answer](https://github.com/Riochin/AtCoder/tree/main/ABC/ABC390C) |
