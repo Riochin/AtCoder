@@ -1,4 +1,5 @@
 # AtCoder Beginners Challenge
+2025/1/22 ~ 
 
 
 | No. | Date | Ex. | Problem | Answer |
