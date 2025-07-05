@@ -10,10 +10,10 @@ public class Main {
         int M = sc.nextInt();
         int itemsize = 0;
 
-        int[] items = new int[N];
-        for(int item:items){
-            itemsize += item;
+        for(int i=0;i<N;i++){
+            itemsize += sc.nextInt();
         }
+        sc.close();
 
         if(M >= itemsize){
             System.out.println("Yes");
