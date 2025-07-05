@@ -23,7 +23,7 @@ public class Main {
                     int value = front[0];
                     int count = front[1];
                     
-                    if(k >= count){
+                    if(k>= count){
                         // 先頭の要素を全て使用
                         sum += (long)value * count;
                         k -= count;
