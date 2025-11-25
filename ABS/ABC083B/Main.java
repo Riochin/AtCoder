@@ -5,6 +5,14 @@ import java.util.Scanner;
 // time complexity: O(N)
 
 public class Main {
+    public static int calc(int i){
+        int res = 0;
+        while (i > 0){
+            res += i%10;
+            i /= 10;
+        }
+        return res;
+    }
     public static void main(String[] args){
         Scanner sc = new Scanner (System.in);
         int N = sc.nextInt();
@@ -14,15 +22,8 @@ public class Main {
         int res = 0;
         
         for(int i=0;i<=N;i++){
-            String s = Integer.toString(i);
-            int sum = 0;
-            for(int j=0;j<s.length();j++){
-                sum += Character.getNumericValue(s.charAt(j));
-            }
-            if(sum >= A && sum <= B){
-                // System.out.println("Added" + sum);
-                res += i;
-            }
+            int wa = calc(i);
+            if (wa >= A && wa <= B) res += i;
         }
 
         sc.close();
